@@ -76,15 +76,15 @@
 <body>
     <h1>Create Your Mashup</h1>
     <div>
-    <form action="index.html" method="POST" onsubmit="return check()" novalidate">
+    <form action="index.html" method="POST" onsubmit="return false;">
         <label for="singer">Singer Name</label>
         <input type="text" id="singer" name="singer" required>
 
         <label for="weight">Number of Videos</label>
-        <input type="number" id="novideos" name="novideos" required min="10" >
+        <input type="number" id="novideos" name="novideos" required min="11" >
 
         <label for="imapct">Duration of each video</label>
-        <input type="number" id="duration" name="duration" required min="20">
+        <input type="number" id="duration" name="duration" required min="21">
 
         <label for="email">Email Address</label>
         <input type="email" id="email" name="email" required>
